@@ -1,0 +1,17 @@
+/* Header Style */
+.container{
+    background-color: black;
+    margin: 50px 140px;
+}
+.div-container{
+    margin: 0 4%;
+}
+.d-flex{
+    display: flex;
+}
+.img-div{
+    width: 44%;
+}
+.img-div img{
+    width: 100%;
+}
