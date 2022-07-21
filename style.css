@@ -46,13 +46,16 @@
     color: white;
     padding-top: 20px;
 }
-.pad-header div button{
+.Animate-button{
     color: #ffffff;
     background-color: blue;
     padding: 11px 30px 11px 22px;
     font-size: 17px;
     margin-top: 21px;
     border-radius: 5px;
+    cursor: pointer;
+    animation: sliding 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
 }
 .pad-header div{
     display: flex;
@@ -62,7 +65,73 @@
     position: relative;
     top: 36px;
     right: 25px;
-
 }
 
+
 /* Section Style */
+
+
+.sec-container{
+    margin: 0 140px 50px 140px;
+    display: flex;
+}
+.button-width{
+    height: 210px;
+    width: 232px;
+    margin-right: 20px;
+    background-color: black;
+    padding: 7px 0px 40px 36px;
+    border-radius: 10px;
+}
+.button-width button{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    align-items: center;
+    margin: 16px 0;
+    width: 82%;
+    height: 28%;
+}
+.color-red{
+    background-color: rgb(128, 214, 0);
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.transfar{
+    box-shadow: 0 0 3px 1px rgb(217, 217, 217);
+    border-radius: 10px;
+}
+.sec-img-div{
+    width: 100%;
+}
+.sec-img-div img{
+    width: 100%;
+}
+.transfar div button{
+    padding: 3px 10px;
+    margin-top: 10px;
+}
+.m-top{
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-d-flex{
+    display: flex;
+    align-items: center;
+}
+.sec-d-flex div{
+    display: flex;
+    align-items: center;
+}
+.sec-p{
+    padding: 0 30px 0 5px;
+}
+.pad{
+    padding-left: 10px;
+}
