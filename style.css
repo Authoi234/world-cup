@@ -312,8 +312,29 @@
 }
 
 /* tablet */
+
 @media only screen and (min-width: 577px) and (max-width: 764px) {
+    .position-relative{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-width{
+        display: flex;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        width: 100%;
+    }
+    .button-width button{
+        margin-right: 20px;
+        width: 100%;
+    }
     .d-grid{
         grid-template-columns: repeat(2,1fr);
+    }
+    .mbotom{
+        margin-top: 270px;
     }
 }
