@@ -1,3 +1,12 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* margin and padding none */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* Header Style */
 .container{
     background-color: black;
@@ -8,10 +17,27 @@
 }
 .d-flex{
     display: flex;
+    width: 99%;
 }
 .img-div{
-    width: 44%;
+    width: 48%;
 }
 .img-div img{
     width: 100%;
+}
+.h1-price{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 45%;
+}
+.pad-header{
+    padding: 51px 0 50px 60px;
+}
+.div-width{
+    width: 531px;
+    height: 424px;
 }
