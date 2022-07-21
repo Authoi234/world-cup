@@ -52,11 +52,11 @@
     width: 100%;
 }
 .h1-price{
-    font-size: 60px;
+    font-size: 297%;
     font-weight: 600;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    line-height: 70px;
+    line-height: 178%;
 }
 .half-width{
     width: 45%;
@@ -72,7 +72,7 @@
     color: #ffffff;
     background-color: blue;
     padding: 11px 30px 11px 22px;
-    font-size: 17px;
+    font-size: 109%;
     margin-top: 21px;
     border-radius: 5px;
     animation: sliding 1s ease-in-out 0.5s infinite alternate;
@@ -104,7 +104,7 @@
     border-radius: 10px;
 }
 .button-width button{
-    font-size: 17px;
+    font-size: 109%;
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     border: none;
@@ -220,6 +220,59 @@
 
 /* Mobile */
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 576px) {
+    
+    .d-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .button-width{
+        position: absolute;
+        top: 0;
+        background-color: white;
+        width: 100%;
+    }
+    .position-relative{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex{
+        display: block;
+    }
+    .mbotom{
+        margin-top: 50px;
+    }
+    .transfar{
+        width: 100%;
+    }
+    .bg-dark ul{
+        display: block;
+        text-align: center;
+    }
+    .m-bottom{
+        margin-bottom: 20px;
+    }
+    .sec-container{
+        margin: 0;
+    }
+    .container{
+        margin: 30px;
+    }
+    .h1-price{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .div-container{
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pad-header{
+        padding: 10px;
+    }
+}
+@media screen {
     
 }
