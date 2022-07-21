@@ -1,3 +1,5 @@
+/* Animation */
+
 @keyframes sliding{
     0%{
         background-color: blue;
@@ -156,4 +158,10 @@
 }
 .pad{
     padding-left: 10px;
+}
+
+/* Footer Style */
+
+.bg-dark{
+    background-color: black;
 }
