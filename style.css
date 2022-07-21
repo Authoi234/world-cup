@@ -1,3 +1,23 @@
+@keyframes sliding{
+    0%{
+        background-color: blue;
+        border: none;
+        outline: none;
+
+    }
+    50%{
+        background-color: yellow;
+        border: none;
+        outline: none;
+
+    }
+    100%{
+        background-color: green;
+        border: none;
+        outline: none;
+    }
+}
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -46,16 +66,14 @@
     color: white;
     padding-top: 20px;
 }
-.Animate-button{
+.header-button{
     color: #ffffff;
     background-color: blue;
     padding: 11px 30px 11px 22px;
     font-size: 17px;
     margin-top: 21px;
     border-radius: 5px;
-    cursor: pointer;
-    animation: sliding 2s ease-in-out 0.5s infinite alternate;
-    animation-play-state: running;
+    animation: sliding 1s ease-in-out 0.5s infinite alternate;
 }
 .pad-header div{
     display: flex;
