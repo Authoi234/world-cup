@@ -8,9 +8,13 @@
 }
 
 /* Header Style */
+.m-bottom{
+    margin-bottom: 100px;
+}
 .container{
     background-color: black;
     margin: 50px 140px;
+    border-radius: 30px;
 }
 .div-container{
     margin: 0 4%;
@@ -30,6 +34,7 @@
     font-weight: 600;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    line-height: 70px;
 }
 .half-width{
     width: 45%;
@@ -37,7 +42,27 @@
 .pad-header{
     padding: 51px 0 50px 60px;
 }
-.div-width{
-    width: 531px;
-    height: 424px;
+.pera-style{
+    color: white;
+    padding-top: 20px;
 }
+.pad-header div button{
+    color: #ffffff;
+    background-color: blue;
+    padding: 11px 30px 11px 22px;
+    font-size: 17px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+.pad-header div{
+    display: flex;
+}
+.fa-chevron-right{
+    color: white;
+    position: relative;
+    top: 36px;
+    right: 25px;
+
+}
+
+/* Section Style */
